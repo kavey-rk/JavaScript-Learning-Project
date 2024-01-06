@@ -1,0 +1,43 @@
+/*--
+body{   
+    background-color: rgb(23, 105, 23);
+}
+
+.terminal{
+    height: 200px;
+    width: 80vw;
+    background: black;
+    margin: 30% auto auto auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.span{
+    color: rgb(23, 105, 23);
+    font-size: 1.5rem;
+}
+*/
+
+
+body {
+    background-color: #00FF00;
+    font-family: 'Courier New', monospace;
+    color: #00FF00;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.terminal {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid #00FF00;
+    border-radius: 10px;
+    background-color: black;
+    white-space: pre;
+}
+
+.blink {
+    animation: blink 1s infinite;
+}
